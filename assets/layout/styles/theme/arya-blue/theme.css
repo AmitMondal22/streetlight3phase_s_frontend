@@ -1884,29 +1884,31 @@ p-treeselect.p-treeselect-clearable .p-treeselect-clear-icon {
   right: 2.357rem;
 }
 
-.p-button {
-  color: #212529;
-  background: #81C784;
-  border: 1px solid #81C784;
+button.p-button, .p-button {
+  color: #ffffff !important;
+  background: #66BB6A !important;
+  border: 1px solid #66BB6A !important;
   padding: 0.5rem 1rem;
   font-size: 1rem;
   transition: background-color 0.2s, color 0.2s, border-color 0.2s, box-shadow 0.2s;
   border-radius: 3px;
 }
-.p-button:enabled:hover {
-  background: #6abd6e;
-  color: #212529;
-  border-color: #6abd6e;
+button.p-button:enabled:hover, .p-button:enabled:hover {
+  background: #4CAF50 !important;
+  color: #ffffff !important;
+  border-color: #4CAF50 !important;
 }
-.p-button:enabled:active {
-  background: #54b358;
-  color: #212529;
-  border-color: #54b358;
+
+button.p-button:enabled:active, button.p-button:disabled, .p-button:disabled {
+  background-color: #A5D6A7 !important;
+  color: #1B5E20 !important;
+  border-color: #A5D6A7 !important;
+  opacity: 1 !important;
 }
-.p-button.p-button-outlined {
-  background-color: transparent;
-  color: #81C784;
-  border: 1px solid;
+button.p-button.p-button-outlined, .p-button.p-button-outlined {
+  background-color: transparent !important;
+  color: #66BB6A !important;
+  border: 1px solid #66BB6A !important;
 }
 .p-button.p-button-outlined:enabled:hover {
   background: rgba(129, 199, 132, 0.04);
@@ -2163,19 +2165,19 @@ p-treeselect.p-treeselect-clearable .p-treeselect-clear-icon {
   border: 1px solid;
 }
 .p-button.p-button-success.p-button-outlined:enabled:active, .p-buttonset.p-button-success > .p-button.p-button-outlined:enabled:active, .p-splitbutton.p-button-success > .p-button.p-button-outlined:enabled:active {
-  background: rgba(197, 225, 165, 0.16);
-  color: #C5E1A5;
+  background: rgba(165, 214, 167, 0.16);
+  color: #A5D6A7;
   border: 1px solid;
 }
 .p-button.p-button-success.p-button-text, .p-buttonset.p-button-success > .p-button.p-button-text, .p-splitbutton.p-button-success > .p-button.p-button-text {
   background-color: transparent;
-  color: #C5E1A5;
+  color: #A5D6A7;
   border-color: transparent;
 }
 .p-button.p-button-success.p-button-text:enabled:hover, .p-buttonset.p-button-success > .p-button.p-button-text:enabled:hover, .p-splitbutton.p-button-success > .p-button.p-button-text:enabled:hover {
-  background: rgba(197, 225, 165, 0.04);
+  background: rgba(165, 214, 167, 0.04);
   border-color: transparent;
-  color: #C5E1A5;
+  color: #A5D6A7;
 }
 .p-button.p-button-success.p-button-text:enabled:active, .p-buttonset.p-button-success > .p-button.p-button-text:enabled:active, .p-splitbutton.p-button-success > .p-button.p-button-text:enabled:active {
   background: rgba(197, 225, 165, 0.16);
